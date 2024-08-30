@@ -7,44 +7,34 @@ function App() {
     {
       title: "Site 1",
       link: "https://projeto-interclasse.vercel.app",
-      borderColor: "border-red-600",
     },
     {
       title: "Site 2",
       link: "https://projeto-interclasse-omega.vercel.app",
-      borderColor: "border-gray-700",
     },
     {
       title: "Site 3",
       link: "https://interclasse-final.vercel.app",
-      borderColor: "border-red-600",
     },
     {
       title: "Site 4",
       link: "https://sesi-interclasse.vercel.app",
-      borderColor: "border-gray-700",
     },
-
     {
       title: "Site 5",
       link: "https://olimpiadas-three.vercel.app",
-      borderColor: "border-gray-700",
     },
-
     {
       title: "Site 6",
       link: "https://interclasse-two.vercel.app",
-      borderColor: "border-gray-700",
     },
     {
       title: "Site 7",
       link: "https://projeto-final-nine-wheat.vercel.app",
-      borderColor: "border-red-600",
     },
     {
       title: "Site 8",
       link: "https://interclasse-five.vercel.app",
-      borderColor: "border-red-600",
     },
   ];
 
@@ -63,7 +53,9 @@ function App() {
           <div
             key={index}
             onClick={() => window.open(site.link, "_blank")}
-            className={`p-6 border-4 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out cursor-pointer text-gray-800 bg-white ${site.borderColor}`}
+            className={`p-6 border-4 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out cursor-pointer text-gray-800 bg-white ${
+              index % 2 === 0 ? "border-red-600" : "border-gray-700"
+            }`}
           >
             <h2 className="text-2xl font-semibold mb-4">{site.title}</h2>
           </div>
