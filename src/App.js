@@ -14,7 +14,7 @@ function App() {
     },
     {
       title: "Site 3",
-      link: "https://interclasse-final.vercel.app",
+      link: "https://olimpiadas-three.vercel.app",
     },
     {
       title: "Site 4",
@@ -22,7 +22,7 @@ function App() {
     },
     {
       title: "Site 5",
-      link: "https://olimpiadas-three.vercel.app",
+      link: "https://interclasse-final.vercel.app",
     },
     {
       title: "Site 6",
@@ -64,7 +64,7 @@ function App() {
 
       <footer className="max-w-7xl mx-auto text-center mt-12">
         <a
-          href="https://forms.google.com/your-form-link"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSc5UjXsco5jM21A__48R5FWUubzSNzsDULUUy0gC23gsWd-hw/viewform"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-red-600 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-red-700 transition-colors duration-300"
