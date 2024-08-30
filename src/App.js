@@ -6,43 +6,45 @@ function App() {
   const sites = [
     {
       title: "Site 1",
-      link: "https://site1.com",
+      link: "https://projeto-interclasse.vercel.app",
       borderColor: "border-red-600",
     },
     {
       title: "Site 2",
-      link: "https://site2.com",
+      link: "https://projeto-interclasse-omega.vercel.app",
       borderColor: "border-gray-700",
     },
     {
       title: "Site 3",
-      link: "https://site3.com",
+      link: "https://interclasse-final.vercel.app",
       borderColor: "border-red-600",
     },
     {
       title: "Site 4",
-      link: "https://site4.com",
+      link: "https://sesi-interclasse.vercel.app",
       borderColor: "border-gray-700",
     },
+
     {
       title: "Site 5",
-      link: "https://site5.com",
-      borderColor: "border-red-600",
+      link: "https://olimpiadas-three.vercel.app",
+      borderColor: "border-gray-700",
     },
+
     {
       title: "Site 6",
-      link: "https://site6.com",
+      link: "https://interclasse-two.vercel.app",
       borderColor: "border-gray-700",
     },
     {
       title: "Site 7",
-      link: "https://site7.com",
+      link: "https://projeto-final-nine-wheat.vercel.app",
       borderColor: "border-red-600",
     },
     {
       title: "Site 8",
-      link: "https://site8.com",
-      borderColor: "border-gray-700",
+      link: "https://interclasse-five.vercel.app",
+      borderColor: "border-red-600",
     },
   ];
 
